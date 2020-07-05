@@ -1,0 +1,225 @@
+{
+  "content": {
+    "sections": [
+      {
+        "title": "Who am I?",
+        "intro": " I'm a developer born in Iran and founder of <a href=\"//http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix\">Delix.ir</a>, <a href=\"https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate\">Bytegate.ir</a> and <a href=\"http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet\">Bobet.ir</a> and co-founder of <a href=\"https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli\">Smo.li</a>.<br> I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security."
+      }
+    ]
+  },
+  "sections": {
+    "info": {
+      "title": "INFO",
+      "items": [
+        {
+          "name": "Email",
+          "icon": "mdi-email",
+          "text": "ednoosde.wob@gmail.com"
+        },
+        {
+          "name": "Website",
+          "icon": "mdi-web",
+          "text": "amirreza.in"
+        },
+        {
+          "name": "Birth Date",
+          "icon": "mdi-cake-variant",
+          "text": "January 11th, 1992"
+        },
+        {
+          "name": "Location",
+          "icon": "mdi-map-marker",
+          "text": "Nuestra Señora de La Paz, Bolivia"
+        }
+      ]
+    },
+    "socials": {
+      "title": "SOCIALS",
+      "items": [
+        {
+          "icon": "mdi-github-circle",
+          "text": "github.com/EdsonT",
+          "link": "https://github.com/EdsonT"
+        },
+        {
+          "icon": "mdi-linkedin-box",
+          "text": "linkedin.com/in/edson-tarqui",
+          "link": "https://www.linkedin.com/in/edson-tarqui/"
+        },
+        {
+          "icon": "mdi-facebook",
+          "text": "facebook.com/Edson_Tarqui",
+          "link": "https://www.facebook.com/profile.php?id=100017232288749"
+        },
+        {
+          "icon": "mdi-instagram",
+          "text": "instagram.com/amirreza.n96",
+          "link": "https://instagram.com/amirreza.n96"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "HOBBIES",
+      "items": [
+        {
+          "icon": "mdi-bullseye",
+          "text": "Getting out of Safe Zone"
+        },
+        {
+          "icon": "mdi-biohazard",
+          "text": "Challenges"
+        },
+
+        {
+          "icon": "mdi-image-filter-hdr",
+          "text": "Nature"
+        },
+        {
+          "icon": "mdi-auto-fix",
+          "text": "Hacking Stuffs"
+        },
+        {
+          "icon": "mdi-teach",
+          "text": "Teaching"
+        },
+        {
+          "icon": "mdi-karate",
+          "text": "Martial Arts"
+        },
+        {
+          "icon": "mdi-music",
+          "text": "Music"
+        },
+        {
+          "icon": "mdi-account-group",
+          "text": "Leadership"
+        },
+        {
+          "icon": "mdi-book-open-page-variant",
+          "text": "Books"
+        }
+
+      ]
+    },
+    "languages": {
+      "title": "LANGUAGES",
+      "items": [
+        {
+          "text": "Spanish",
+          "value": 100
+        },
+        {
+          "text": "English",
+          "value": 85
+        }
+  
+      ]
+    },
+    "prouds": [
+      {
+        "icon": "mdi-help-rhombus-outline",
+        "text": "Answered 10M+ questions!",
+        "source": "(Bytegate.ir post views)"
+      },
+      {
+        "icon": "mdi-library-music",
+        "text": "Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)",
+        "source": "(Bobet.ir and its channel downloads)"
+      },
+      {
+        "icon": "mdi-timer-sand",
+        "text": "Saved +110 days of time of students, writers and etc!",
+        "source": "(Delix.ir service usages)"
+      },
+      {
+        "icon": "mdi-account-multiple",
+        "text": "Tried to cover small part of 7 people expenses.",
+        "source": "(My awesome colleagues)"
+      }
+    ],
+    "educations": [
+      {
+        "from": "2015",
+        "to": "2019 (not finished yet)",
+        "title": "Bachelor\"s degree, Information Technology",
+        "location": "Seraj University",
+        "description": "Became a member of University Academic Association of Computer Science"
+      }
+    ],
+    "skills": [
+      {
+        "title": "PHP",
+        "icon": "mdi-language-php",
+        "value": 95
+      },
+      {
+        "title": "JavaScript",
+        "icon": "mdi-language-javascript",
+        "value": 80
+      },
+      {
+        "title": "Laravel Framework",
+        "icon": "mdi-laravel",
+        "value": 90
+      },
+      {
+        "title": "Vue.js Framework",
+        "icon": "mdi-vuejs",
+        "value": 90
+      },
+      { "divider": true },
+      {
+        "title": "Ubuntu Server",
+        "icon": "mdi-ubuntu",
+        "value": 70
+      },
+      {
+        "title": "CentOS Server",
+        "icon": "mdi-linux",
+        "value": 47
+      },
+      {
+        "title": "Web Application Security",
+        "icon": "mdi-shield-lock",
+        "value": 80
+      },
+      {
+        "title": "Test Driven Development",
+        "icon": "mdi-test-tube",
+        "value": 26
+      },
+      {
+        "title": "Continuous Integration / Continuous Delivery",
+        "icon": "mdi-truck-fast",
+        "value": 35
+      },
+      {
+        "title": "Git",
+        "icon": "mdi-git",
+        "value": 67
+      },
+      { "divider": true },
+      {
+        "title": "Hardware Development",
+        "icon": "mdi-chip",
+        "value": 29
+      },
+      {
+        "title": "C/C++",
+        "icon": "mdi-language-cpp",
+        "value": 38
+      },
+      { "divider": true },
+      {
+        "title": "Leadership",
+        "icon": "mdi-account-group",
+        "value": 68
+      },
+      {
+        "title": "Content Marketing (+340 articles)",
+        "icon": "mdi-text",
+        "value": 96
+      }
+    ]
+  }
+}
