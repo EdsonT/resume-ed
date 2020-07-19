@@ -2,6 +2,22 @@
   <v-app id="r-template">
     <v-fade-transition mode="out-in" type="animation">
       <v-content>
+        <div>
+          <v-speed-dial v-model="fab" fixed open-on-hover="true" bottom right transition='scale-transition'>
+            <template v-slot:activator>
+              <v-btn v-model="fab" color="blue-grey" dark fab>
+                <v-icon v-if="fab">mdi-close</v-icon>
+                <v-icon v-else>mdi-download</v-icon>
+              </v-btn>
+            </template>
+            <v-btn fab dark small color="green">
+              <v-icon>mdi-file-pdf</v-icon>
+            </v-btn>
+            <v-btn fab dark small color="indigo">
+              <v-icon>mdi-file-image</v-icon>
+            </v-btn>
+          </v-speed-dial>
+        </div>
         <v-container fluid fill-height>
           <v-layout align-center justify-center>
             <v-flex md10 sm12>
