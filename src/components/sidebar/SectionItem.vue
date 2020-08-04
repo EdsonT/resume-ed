@@ -6,7 +6,7 @@
     <v-flex :xs10="hasIcon" :xs12="!hasIcon">
       <div>{{item.name}}</div>
       <p>
-        <a v-if="item.link" class="grey--text" href="item.link" target="_blank">{{item.text}}</a>
+        <a v-if="item.link" class="grey--text" :href="item.link" target="_blank">{{item.text}}</a>
         <span v-else class="grey--text">{{item.text}}</span>
       </p>
     </v-flex>

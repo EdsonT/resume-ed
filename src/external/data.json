@@ -1,11 +1,24 @@
 {
-  "content": {
-    "sections": [
+  "timeline":{
+    "items":[
       {
-        "title": "Who am I?",
-        "intro": " I'm a developer born in Iran and founder of <a href=\"//http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix\">Delix.ir</a>, <a href=\"https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate\">Bytegate.ir</a> and <a href=\"http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet\">Bobet.ir</a> and co-founder of <a href=\"https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli\">Smo.li</a>.<br> I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security."
+        "detailed":true,
+        "transparent":true,
+        "from":"May 2013",
+        "to":"March 2014",
+        "title":"Web Developer",
+        "employeer":"CamitBOL",
+        "html":"<ul><li>Designed and developed an informative web page with PHP and JQuery </li> <li> Integrated a CMS to manage the newsletter of the company</li> <li>Web site translation to English, Spanish, and Italian</li><li>Social media management</li></ul>",
+        "icon":"mdi-mouse-variant"
+
       }
     ]
+  },
+  "intro": {
+
+        "title": "Who am I?",
+        "text": " I'm an experienced in Software Product Development & Management, I love building products that effect positive change in the world and innovate in technology."
+    
   },
   "sections": {
     "info": {
@@ -19,7 +32,7 @@
         {
           "name": "Website",
           "icon": "mdi-web",
-          "text": "amirreza.in"
+          "text": "resumeed.io"
         },
         {
           "name": "Birth Date",
@@ -53,8 +66,8 @@
         },
         {
           "icon": "mdi-instagram",
-          "text": "instagram.com/amirreza.n96",
-          "link": "https://instagram.com/amirreza.n96"
+          "text": "instagram.com/ednoosde.io",
+          "link": "https://www.instagram.com/ednoosde.io"
         }
       ]
     },
@@ -118,75 +131,82 @@
     "prouds": [
       {
         "icon": "mdi-help-rhombus-outline",
-        "text": "Answered 10M+ questions!",
-        "source": "(Bytegate.ir post views)"
+        "text": "Worked on customer engagement to implement a pricing/quoting solution",
+        "source": "Jalasoft"
       },
       {
         "icon": "mdi-library-music",
-        "text": "Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)",
-        "source": "(Bobet.ir and its channel downloads)"
+        "text": "Implemented a release management process",
+        "source": "ProcessMaker"
       },
       {
         "icon": "mdi-timer-sand",
-        "text": "Saved +110 days of time of students, writers and etc!",
-        "source": "(Delix.ir service usages)"
+        "text": "Lead the discovery and definition phases of the product",
+        "source": "The Muses"
       },
       {
         "icon": "mdi-account-multiple",
-        "text": "Tried to cover small part of 7 people expenses.",
-        "source": "(My awesome colleagues)"
+        "text": "Lead a diverse team to deliver products",
+        "source": "ProcessMaker"
       }
     ],
     "educations": [
       {
-        "from": "2015",
-        "to": "2019 (not finished yet)",
-        "title": "Bachelor\"s degree, Information Technology",
-        "location": "Seraj University",
-        "description": "Became a member of University Academic Association of Computer Science"
+        "from": "Feb 2019",
+        "to": "Dec 2020",
+        "title": "Master in Digital Business Administration",
+        "location": "Universidad Privada Boliviana",
+        "description": "MBA Degree"
+      },
+      {
+        "from": "Jan 2008",
+        "to": "Dec 2014",
+        "title": "Computer Software Engineering",
+        "location": "Universidad Salesiana de Bolivia",
+        "description": "BE Degree"
       }
     ],
     "skills": [
       {
-        "title": "PHP",
-        "icon": "mdi-language-php",
-        "value": 95
+        "title": "Golang",
+        "icon": "mdi-language-go",
+        "value": 60
       },
       {
-        "title": "JavaScript",
-        "icon": "mdi-language-javascript",
-        "value": 80
+        "title": "Java",
+        "icon": "mdi-language-java",
+        "value": 60
       },
       {
-        "title": "Laravel Framework",
-        "icon": "mdi-laravel",
+        "title": "Apex - Salesforce",
+        "icon": "mdi-salesforce",
         "value": 90
       },
       {
         "title": "Vue.js Framework",
         "icon": "mdi-vuejs",
-        "value": 90
+        "value": 50
       },
       { "divider": true },
+      {
+        "title": "Debian Server",
+        "icon": "mdi-debian",
+        "value": 70
+      },
       {
         "title": "Ubuntu Server",
         "icon": "mdi-ubuntu",
         "value": 70
       },
       {
-        "title": "CentOS Server",
-        "icon": "mdi-linux",
-        "value": 47
-      },
-      {
-        "title": "Web Application Security",
-        "icon": "mdi-shield-lock",
-        "value": 80
+        "title": "AWS",
+        "icon": "mdi-aws",
+        "value": 50
       },
       {
         "title": "Test Driven Development",
         "icon": "mdi-test-tube",
-        "value": 26
+        "value": 30
       },
       {
         "title": "Continuous Integration / Continuous Delivery",
@@ -196,28 +216,28 @@
       {
         "title": "Git",
         "icon": "mdi-git",
-        "value": 67
+        "value": 75
       },
       { "divider": true },
       {
-        "title": "Hardware Development",
-        "icon": "mdi-chip",
-        "value": 29
+        "title": "PHP",
+        "icon": "mdi-language-php",
+        "value": 40
       },
       {
-        "title": "C/C++",
-        "icon": "mdi-language-cpp",
-        "value": 38
+        "title": "MongoDB",
+        "icon": "mdi-database",
+        "value": 50
       },
       { "divider": true },
       {
         "title": "Leadership",
         "icon": "mdi-account-group",
-        "value": 68
+        "value": 80
       },
       {
-        "title": "Content Marketing (+340 articles)",
-        "icon": "mdi-text",
+        "title": "JIRA Administration",
+        "icon": "mdi-atlassian",
         "value": 96
       }
     ]

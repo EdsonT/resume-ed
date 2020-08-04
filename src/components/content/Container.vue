@@ -1,21 +1,8 @@
 <template>
   <v-card color="grey lighten-4" light>
     <v-card-text>
-      <content-section title="Who am I?">
-        I'm a developer born in Iran and founder of
-        <a
-          href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix"
-        >Delix.ir</a>,
-        <a
-          href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate"
-        >Bytegate.ir</a> and
-        <a
-          href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet"
-        >Bobet.ir</a> and co-founder of
-        <a
-          href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli"
-        >Smo.li</a>.
-        <br />I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
+      <content-section :title="myJson.intro.title">
+        {{myJson.intro.text}}
       </content-section>
       <content-section v-if="myJson.sections.prouds" title="What am I proud of?">
         <v-layout v-for="(proud, i) in myJson.sections.prouds" :key="i">
@@ -47,9 +34,9 @@
         <!-- <template slot="actions">(% are relative not absolute)</template> -->
         <v-layout wrap>
           <template v-for="(skill,i) in myJson.sections.skills">
-            <v-flex v-if="skill.divider" :key="i" md12 xs12 mb-3 />
+            <v-flex v-if="skill.divider" :key="i" />
             <v-flex v-else :key="i" md6 xs12>
-              <div class="mr-9 mt-3">
+              <div class="mr-4 mt-4">
                 <div class="align-center">
                   <v-icon small>{{skill.icon}}</v-icon>
                   {{skill.title}}
@@ -57,7 +44,7 @@
                 <v-progress-linear
                   class="progress"
                   color="secondary"
-                  height="3"
+                  height="5"
                   :value="skill.value"
                 />
               </div>
