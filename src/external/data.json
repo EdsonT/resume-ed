@@ -2,14 +2,63 @@
   "timeline":{
     "items":[
       {
-        "detailed":true,
+        "main":true,
+        "transparent":true,
+        "from":"Aug 2018",
+        "to":"Jan 2019",
+        "title":"Software Engineer",
+        "employeer":"Salamanca Solutions",
+        "html":"<ul></ul>",
+        "icon":"",
+        "iconImage":"img/jalasoft_logo.png"
+
+      },
+      {
+        "main":true,
+        "transparent":true,
+        "from":"Aug 2018",
+        "to":"Jan 2019",
+        "title":"Software Engineer",
+        "employeer":"Salamanca Solutions",
+        "html":"<ul></ul>",
+        "icon":"",
+        "iconImage":"img/ssolutions_logo.png"
+
+      },
+      {
+        "main":true,
+        "transparent":true,
+        "from":"Jan 2016",
+        "to":"Jul 2018",
+        "title":"Technical Product Manager",
+        "employeer":"ProcessMaker",
+        "html":"<ul><li>Performed ongoing management of the backlog and the roadmap of new features, improvements, and bug fixes for upcoming versions.</li><li>Delivered PRDs and worked closely with the development team until the release phase.</li><li>Managed a wide variety of customer engagement tasks to define new features, improvements, and solving issues over the product.</li><li>Created and managed the new release management process for ProcessMaker products/releases.</li><li>Created POC's for new/experimental products and integration.</li><li>Atlassian suite management and setup (Jira and Confluence).</li></ul>",
+        "icon":"",
+        "iconImage":"img/processmaker_logo.png"
+
+      },
+      {
+        "main":true,
+        "transparent":true,
+        "from":"Nov 2014",
+        "to":"Apr 2015",
+        "title":"Software Engineer Intern",
+        "employeer":"Banco de Credito BCP",
+        "html":"<ul><li>Developed a customer database-driven software, synchronized with the main customer's data center using .NET, T-SQL, and PL/SQL.</li> <li>Designed a Visual Basic CRUD desktop application integrated to the customer's data center.</li> <li>Performed database migration and transformation to generate reports for government format requests using Microsoft Business Intelligence Tools.</li></ul>",
+        "icon":"mdi-mouse-variant",
+        "iconImage":"img/bcp_logo.png"
+
+      },
+      {
+        "main":true,
         "transparent":true,
         "from":"May 2013",
         "to":"March 2014",
         "title":"Web Developer",
         "employeer":"CamitBOL",
         "html":"<ul><li>Designed and developed an informative web page with PHP and JQuery </li> <li> Integrated a CMS to manage the newsletter of the company</li> <li>Web site translation to English, Spanish, and Italian</li><li>Social media management</li></ul>",
-        "icon":"mdi-mouse-variant"
+        "icon":"mdi-mouse-variant",
+        "iconImage":""
 
       }
     ]

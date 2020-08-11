@@ -3,10 +3,10 @@
     <v-card-text>
       <content-section id="timeline" title="My Experiences">
         <v-timeline dense>
-          <v-timeline-item v-for="(item,i) in myJson.timeline.items" :key="i" large>
-            <template v-slot:icon>
+          <v-timeline-item v-for="(item,i) in myJson.timeline.items"  :key="i" large :icon="item.icon ||''" fill-dot  icon-color="blue-grey darken-4"  color="blue-grey lighten-5">
+            <template v-if="item.iconImage" v-slot:icon >
               <v-avatar>
-                <img src="http://i.pravatar.cc/64" />
+                <img :src="item.iconImage" />
               </v-avatar>
             </template>
             <v-card class="elevation-3" shaped>
