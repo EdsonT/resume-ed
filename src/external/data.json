@@ -4,11 +4,11 @@
       {
         "main":true,
         "transparent":true,
-        "from":"Aug 2018",
-        "to":"Jan 2019",
-        "title":"Software Engineer",
-        "employeer":"Salamanca Solutions",
-        "html":"<ul></ul>",
+        "from":"Feb 2019",
+        "to":"Present",
+        "title":"Implementation Engineer",
+        "employeer":"Jalasoft",
+        "html":"<ul><li>Provided continuous support to the customer on Salesforce and our CPQ solution troubleshooting.</li><li>Developed custom Salesforce integrations with our core product using Apex.<li>Succesfully implemented a CPQ software solution over different projects from various industries like manufacturing, food, and airlines. </li><li>Performed training and led client technical staff on a CPQ solution use and identifying new functionalities and issues.</li><li>Established technical project requirements for different projects based on the customer's input.</li><li>Worked closely with Development and Product team on identifying enhancements and bug fixes for the customer implementation.</li></ul>",
         "icon":"",
         "iconImage":"img/jalasoft_logo.png"
 
@@ -20,7 +20,7 @@
         "to":"Jan 2019",
         "title":"Software Engineer",
         "employeer":"Salamanca Solutions",
-        "html":"<ul></ul>",
+        "html":"<ul><li>Defined and Implemented a BPMN and DMN workflow engine using Camunda and Spring Boot.</li><li>Developed lambda functions over a Spring Boot RESTful Web Service and AWS.<li>Developed Unit Tests in a TDD approach with technologies like Groovy and Spock framework.</li><li>Build Serverless infrastructure as code(IaC) with Terraform.</li></ul>",
         "icon":"",
         "iconImage":"img/ssolutions_logo.png"
 
