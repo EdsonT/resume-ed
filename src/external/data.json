@@ -16,6 +16,18 @@
       {
         "main":true,
         "transparent":true,
+        "from":"Jun 2019",
+        "to":"Nov 2019",
+        "title":"Product Manager",
+        "employeer":"The Muses",
+        "html":"<ul><li>Defined the product strategy and the Roadmap with the initial requirements retrieved from the market.</li><li>Defined and implemented the product development cycle and the interaction with the product team.</li><li>Managed and created the backlog for an MVP approach.</li></ul>",
+        "icon":"mdi-sparkles",
+        "iconImage":""
+
+      },
+      {
+        "main":true,
+        "transparent":true,
         "from":"Aug 2018",
         "to":"Jan 2019",
         "title":"Software Engineer",
@@ -99,12 +111,12 @@
       "title": "SOCIALS",
       "items": [
         {
-          "icon": "mdi-github-circle",
+          "icon": "mdi-github",
           "text": "github.com/EdsonT",
           "link": "https://github.com/EdsonT"
         },
         {
-          "icon": "mdi-linkedin-box",
+          "icon": "mdi-linkedin",
           "text": "linkedin.com/in/edson-tarqui",
           "link": "https://www.linkedin.com/in/edson-tarqui/"
         },
@@ -179,22 +191,22 @@
     },
     "prouds": [
       {
-        "icon": "mdi-help-rhombus-outline",
+        "icon": "mdi-account-tie-voice",
         "text": "Worked on customer engagement to implement a pricing/quoting solution",
         "source": "Jalasoft"
       },
       {
-        "icon": "mdi-library-music",
+        "icon": "mdi-transit-connection-horizontal",
         "text": "Implemented a release management process",
         "source": "ProcessMaker"
       },
       {
-        "icon": "mdi-timer-sand",
+        "icon": "mdi-account-cowboy-hat",
         "text": "Lead the discovery and definition phases of the product",
         "source": "The Muses"
       },
       {
-        "icon": "mdi-account-multiple",
+        "icon": "mdi-account-group-outline",
         "text": "Lead a diverse team to deliver products",
         "source": "ProcessMaker"
       }
