@@ -7,7 +7,7 @@
       <content-section v-if="myJson.sections.prouds" title="What am I proud of?">
         <v-layout v-for="(proud, i) in myJson.sections.prouds" :key="i">
           <v-flex md1 xs3>
-            <v-icon right>{{proud.icon}}</v-icon>
+            <v-icon color="blue-grey" right>{{proud.icon}}</v-icon>
           </v-flex>
           <v-flex md11 xs9>
             <p>
@@ -38,7 +38,7 @@
             <v-flex v-else :key="i" md6 xs12>
               <div class="mr-4 mt-4">
                 <div class="align-center">
-                  <v-icon small>{{skill.icon}}</v-icon>
+                  <v-icon small color="blue-grey darken-1">{{skill.icon}}</v-icon>
                   {{skill.title}}
                 </div>
                 <v-progress-linear

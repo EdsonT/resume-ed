@@ -13,7 +13,8 @@
               <v-card-title class="headline">
                 <span class="mb-1">
                   {{item.title}}
-                  <span class="blue-grey--text lighten-1">at&nbsp;{{item.employeer}}</span>
+                  <span >at&nbsp;</span>
+                  <span class="light-blue--text text--darken-4">{{item.employeer}}</span>
                 </span>
               </v-card-title>
               <v-card-subtitle>{{item.from}} - {{item.to}}</v-card-subtitle>

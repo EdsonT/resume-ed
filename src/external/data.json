@@ -78,7 +78,7 @@
   "intro": {
 
         "title": "Who am I?",
-        "text": " I'm an experienced in Software Product Development & Management, I love building products that effect positive change in the world and innovate in technology."
+        "text": " I'm an experienced professional in Software Product Development & Management, I love building products that effect positive change in the world and innovate in technology."
     
   },
   "sections": {
@@ -202,12 +202,12 @@
       },
       {
         "icon": "mdi-account-cowboy-hat",
-        "text": "Lead the discovery and definition phases of the product",
+        "text": "Led the discovery and definition phases of the product",
         "source": "The Muses"
       },
       {
         "icon": "mdi-account-group-outline",
-        "text": "Lead a diverse team to deliver products",
+        "text": "Led a diverse team to deliver products",
         "source": "ProcessMaker"
       }
     ],

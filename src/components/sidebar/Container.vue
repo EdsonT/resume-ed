@@ -1,13 +1,15 @@
 <template>
-  <v-card color="grey darken-3" dark>
+  <v-card color="grey darken-4" dark>
     <v-card-text>
-      <avatar />
+      <avatar>
+        
+      </avatar>
       <div class="text-sm-center mb-4 mt-3">
         <h1 class="mb-1">
           Edson
-          <span class="light-blue--text text--lighten-3">Tarqui</span>
+          <span class="teal--text text--lighten-3">Tarqui</span>
         </h1>
-        <span >Technical Product Manager</span>
+        <span class="teal--text text--lighten-3">Technical Product Manager</span>
       </div>
       <sidebar-section :options="myjson.sections.info" />
       <sidebar-section :options="myjson.sections.socials" />
@@ -66,6 +68,6 @@ export default {
 </script>
 <style scoped>
 .sidebar {
-  background: #2e2e2e;
+  background: #191308;
 }
 </style>
